@@ -1,0 +1,174 @@
+body {
+font-family: 'Open Sans Condensed', sans-serif;
+color: #1408FC;
+background-color: #ffffff;
+text-align: center;
+}
+
+h1{
+  font-family: 'IBM Plex Mono', monospace;
+  font-size:60px;
+  font-style: bold;
+
+  color: #000000;
+  text-align: left;
+  margin-bottom: 1px;
+}
+
+p{font-family: 'IBM Plex Mono', monospace;
+font-size:16px;
+font-style: italic;
+color: #000000;
+text-align: left;
+
+}
+
+h2{
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 30px;
+font-style: bold;
+  text-decoration: underline;
+  color: black;
+  text-align: left;
+  margin-bottom: 1px;
+}
+
+h3{
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 30px;
+font-style: bold;
+  text-decoration: underline;
+  color: #000000;
+  text-align: left;
+  margin-bottom: 1px;
+}
+
+h4{
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 30px;
+  font-style: bold;
+  text-decoration: underline;
+  color: #000000;
+  text-align: left;
+  margin-bottom: 1px;
+}
+
+header{
+  background-image: url(images/image7.jpg);
+  background-repeat: no-repeat;
+  background-position: 60% center;
+  background-size:cover;
+  min-height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+
+
+
+section {
+  text-align: center;
+}
+
+
+
+.responsiveimage img
+{
+  max-width: 50px;
+  border: 4px solid #00000
+}
+img{ width: 30%;
+}
+
+}
+.section-content {
+}
+
+li {
+  list-style-type: none; /* on annule la puce par défaut */
+  background-size: 9px;
+  background-image: url(images/puce.jpg);/* on affiche l'image souhaitée */
+  background-repeat: no-repeat; /* on annule la répétition par défaut */
+  background-position: left; /* on positionne où l'on veut */
+  padding-left: 20px; /* pour éviter la superposition du contenu */
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 10px;
+  color: #000000;
+  text-align: left;
+}
+
+
+#biographie {
+
+}
+.bio-content{
+margin-left: 10px;
+margin-right: 50px;
+max-width: 100%;
+text-align: left;
+padding: 2em;
+}
+
+.list-style {
+margin-top: -60px;
+  margin-left: 10px;
+  margin-right: 50px;
+  max-width: 100%;
+  text-align: left;
+  padding: 2em;
+}
+
+
+
+
+
+#competences {
+
+}
+.comp-content{
+  margin-left: 50px;
+  margin-right: 50px;
+  max-width: 100%;
+  text-align: left;
+  padding: 2em;
+
+}
+
+#portfolio {
+
+}
+.port-content{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+.portfolio-item{
+  margin: 12px;
+}
+
+
+
+
+.header-content-block{
+margin-left: -450px;
+margin-right: 50px;
+max-width: 50%;
+text-align: left;
+padding: 2em;
+image-orientation: 270deg;
+}
+
+
+footer{
+
+
+}
+.responsiveimage img
+{
+  max-width: 500px;
+  border: 4px solid #00000
+}
+img{ width: 30%;
+}
